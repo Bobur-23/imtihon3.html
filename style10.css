@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: white;
+    color: #333;
+}
+
+
+header {
+    width: 100%;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav a {
+    margin-left: 30px;
+    color: #555;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav .active {
+    font-weight: bold;
+    color: black;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    gap: 40px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    max-width: 360px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.hero-text button {
+    padding: 12px 28px;
+    background: #3a7bff;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-img img {
+    width: 500px;
+    height: auto;
+}
+
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 60px;
+}
+
+.section-subtitle {
+    text-align: center;
+    max-width: 600px;
+    margin: 15px auto 40px;
+    color: #666;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;   
+    gap: 25px;
+    padding: 0 80px 60px;
+    justify-content: center;
+}
+
+.service-box {
+    width: 30%;         
+    min-width: 260px;
+    background: #f8f8f8;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.service-box img {
+    margin-bottom: 20px;
+}
+
+.service-box:hover {
+    background: #3a7bff;
+    color: white;
+}
+
